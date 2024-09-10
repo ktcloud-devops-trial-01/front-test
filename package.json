@@ -1,5 +1,5 @@
 {
-  "name": "next-front",
+  "name": "front",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -8,7 +8,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
+    "prettier": "3.3.3",
     "turbo": "^2.1.1",
     "typescript": "^5.4.5"
   },
@@ -19,5 +19,13 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "volta": {
+    "node": "20.17.0",
+    "npm": "10.8.2"
+  },
+  "dependencies": {
+    "init": "^0.1.2",
+    "storybook": "^0.1.0"
+  }
 }
