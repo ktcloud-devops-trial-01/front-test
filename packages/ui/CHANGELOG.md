@@ -1,4 +1,4 @@
-# @ktcloud-devops-trial-01/ui
+# @ssokk7777/ui
 
 ## 0.1.2
 
