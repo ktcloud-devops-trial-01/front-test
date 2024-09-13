@@ -21,10 +21,10 @@ jobs:
           node-version: 20.17.0
           registry-url: 'https://npm.pkg.github.com'
 
-      - uses: pnpm/action-setup@v2
+      - uses: npm/action-setup@v2
         name: Install npm
         with:
-          version:  10.8.2
+          version: 10.8.2
 
       - name: Install
         run: npm install
